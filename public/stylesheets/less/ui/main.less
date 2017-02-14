@@ -1,0 +1,331 @@
+//Navbar
+.navbar-inverse{
+  background: rgba(64, 62, 57, .7);
+  border-bottom: 1px solid #080808;
+  
+  .navbar-brand {
+    display: inline-block;
+    width: auto;
+    height: 80px;
+    text-align: left;
+    
+    img {
+      height: 80px;
+    }
+  }  
+  
+  .navbar-nav {
+
+    .nav-link {
+      color: @color-white;  
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 18px;
+    }        
+  }
+}
+
+//Home Hero Banner
+.site-wrapper-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.home-wrap{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: fixed;   
+}
+ 
+.banner-content {
+    
+  h1 {
+    font-family: @secondary-font;
+    font-size: 35px;
+    background-color: rgba(64, 62, 57, .7);
+    color: @color-white;
+    margin-bottom: 0;
+    font-weight: 300;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    width: 80%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    padding: 20px 25px 0px 25px;
+    line-height: 30px;
+    color: @color-dark;
+    background-color: rgba(255,255,255,0.8);
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5);
+  }
+  
+  p {
+    font-size: 16px;
+    padding: 10px 25px;
+    line-height: 30px;
+    color: @color-dark;
+    background-color: rgba(255,255,255,0.8);
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 0.5);
+  }
+  
+  .btn {
+    margin-top: 50px;
+  }
+}
+
+.heading{
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+  
+  h3 {
+    padding: 25px 0;
+    font-size: 38px;
+    font-weight: 800;
+  }   
+}
+  
+
+
+//Section Services
+.section-services {
+  background-color: @color-bg-dark;
+  color: @sec-font-color;
+  width: 100%;
+  background-size: cover;
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  
+  .services-inside-block {
+    min-height: 100%;
+    border: 1px solid @color-white;
+    padding: 50px 20px;
+    text-align: center;
+    
+    img {
+      max-width: 100%;
+    }  
+  
+    h5 {
+      font-family: @secondary-font;
+      font-size: 22px;
+      font-weight: 300;
+      padding: 20px 25px;
+      text-transform: uppercase;
+    }
+    
+    p {
+      color: #fff;
+      padding: 5px 25px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+  }
+  
+  .services-action {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+
+
+//Section Register
+.section-register {
+  background-color: @color-white;
+  color: @dark-font-color;
+  width: 100%;
+  background-size: cover;
+  height: auto;
+  padding-top: 115px;
+  padding-bottom: 150px;
+  
+  .heading{
+    padding-bottom: 20px;
+  }
+  .register-block{
+    margin-bottom: 25px;
+    padding: 15px;
+    background: @color-white;
+    border: 1px solid;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.35);
+
+    h5 {
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 25px;
+    }
+
+    label {
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+  
+  .oauth-wrap {
+    text-align: center;
+    margin: 20px 0;
+          
+    a {
+      display: inline-block;
+      width: 65px;
+      height: 65px;
+      vertical-align: middle;
+      border-radius: 4px;
+      margin: 5px;
+      padding: 0;
+
+      &:hover {
+        text-decoration: none;
+        
+        span {
+          text-decoration: underline;
+        }
+      }
+
+      .vx-icon {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        background-image: url('../images/voxbone-x.png');
+        background-size: 22px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        
+      }
+      
+      i {
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        margin: 8px 0 2px;
+      }
+
+      span {
+        display: block;
+        text-align: center;
+        padding: 0;
+        font-size: .8em;
+      }           
+    }  
+  }
+}
+
+
+//Section Contact
+.section-contact {
+  background: @color-bg-dark;
+  color: @color-white;
+}
+
+.padding-contact {
+  padding: 100px 0;
+  font-family: @sec-font-color;
+  
+  h3 {
+    color: @color-footer;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px 0px 20px 0px;
+    text-transform: uppercase;
+  }
+  
+  address {
+    font-size: 1.067em;
+    line-height: 24px;
+    font-weight: normal;
+  
+    span {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+  
+  .links {
+    margin: 0;
+    padding: 0;
+  
+    li {
+      display: block;
+      text-align: left;
+      line-height: 24px;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  
+      a {
+        text-decoration: none;
+        color: @color-white;
+        font-weight: normal;
+  
+        &:hover {
+          color: @color-footer;
+        }
+      }
+    }
+  }
+  
+  .newsletter {
+    
+    form {
+    
+      .btn {
+        max-width: 190px;
+        width: 100%;
+      }
+    }
+    
+    label {
+      margin: 0;
+      font-weight: normal;
+    }
+  }
+}
+
+.footer {
+  padding: 0px 20px 50px 20px;
+
+  p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+
+    a {
+      color: @color-white;
+      text-decoration: none;
+
+      &:hover {
+        color: @color-footer;
+      }
+    }
+  }
+}
+
+.small-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 0 !important;
+  background-color: darken(@color-footer, 5%);
+  z-index: 5;
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  a {
+
+    &:hover {
+      color: @color-white !important;
+    }
+  }
+}

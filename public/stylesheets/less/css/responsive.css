@@ -1,0 +1,16 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .banner-content h1 {
+    font-size: 35px;
+  }
+  .banner-content h2 {
+    font-size: 28px;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+}
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */

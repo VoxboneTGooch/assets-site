@@ -1,0 +1,73 @@
+.theme-settings (@theme-color, @theme-hero, @theme-logo){
+
+  .navbar-inverse {
+    
+    .navbar-nav {
+    
+      .open > .nav-link, 
+      .active > .nav-link, 
+      .nav-link.open, 
+      .nav-link.active {
+        color:  @theme-color;
+      }  
+    }
+  }
+
+  .navbar-brand {
+
+    img {
+      content: @theme-logo;
+    }
+  }  
+
+
+  .home-wrap{
+    background-image: @theme-hero;
+  }
+    
+  .btn {
+    color: @color-white;
+    background-color: @theme-color;
+    border-color: @color-white;
+    
+    &:hover,
+    &:focus{
+      background: @theme-color-hover;
+    }
+  }
+  
+  .section-services,
+  .section-register {
+    
+    .heading{      
+    
+      h3 {
+    
+        span {
+          color: @theme-color;
+        }
+      }   
+    }
+    
+    .services-inside-block {
+      background: @theme-color;
+    }
+  }
+  
+  .register-block{
+    border-color: @theme-color; 
+    
+    h5 {
+      color: @theme-color;
+    }
+  }
+  
+}
+
+#click2Vox {
+  .theme-settings (@color-click2vox, @hero-click2vox,  @logo-click2vox);  
+}
+
+#voxRec {
+  .theme-settings (@color-voxRec, @hero-voxRec,  @logo-voxRec);  
+}
