@@ -13175,210 +13175,251 @@ p {
 #workshop .register-block h5 {
   color: #8B8366;
 }
-#click2Vox .navbar-inverse .navbar-toggler {
+#click2vox .navbar-inverse .navbar-toggler {
   background: #207fbf;
 }
-#click2Vox .navbar-inverse .navbar-toggler:hover {
+#click2vox .navbar-inverse .navbar-toggler:hover {
   background: ;
 }
-#click2Vox .navbar-inverse .navbar-nav .open > .nav-link,
-#click2Vox .navbar-inverse .navbar-nav .active > .nav-link,
-#click2Vox .navbar-inverse .navbar-nav .nav-link.open,
-#click2Vox .navbar-inverse .navbar-nav .nav-link.active {
+#click2vox .navbar-inverse .navbar-nav .open > .nav-link,
+#click2vox .navbar-inverse .navbar-nav .active > .nav-link,
+#click2vox .navbar-inverse .navbar-nav .nav-link.open,
+#click2vox .navbar-inverse .navbar-nav .nav-link.active {
   color: #207fbf;
 }
-#click2Vox .navbar-brand img {
+#click2vox .navbar-brand img {
   content: url(../images/click2vox/logo.png);
 }
-#click2Vox .home-wrap {
+#click2vox .home-wrap {
   background-image: url(../images/click2vox/hero.jpg);
 }
-#click2Vox .btn {
+#click2vox .btn {
   color: #ffffff;
   background-color: #207fbf;
   border-color: #ffffff;
 }
-#click2Vox .btn:hover,
-#click2Vox .btn:focus {
+#click2vox .btn:hover,
+#click2vox .btn:focus {
   background: #2a4453;
 }
-#click2Vox .section-services .heading h3 span,
-#click2Vox .section-register .heading h3 span {
+#click2vox .section-services .heading h3 span,
+#click2vox .section-register .heading h3 span {
   color: #207fbf;
 }
-#click2Vox .section-services .services-inside-block,
-#click2Vox .section-register .services-inside-block {
+#click2vox .section-services .services-inside-block,
+#click2vox .section-register .services-inside-block {
   background: #207fbf;
 }
-#click2Vox .register-block {
+#click2vox .register-block {
   border-color: #207fbf;
 }
-#click2Vox .register-block h5 {
+#click2vox .register-block h5 {
   color: #207fbf;
 }
-#voxRec .navbar-inverse .navbar-toggler {
+#voxrec .navbar-inverse .navbar-toggler {
   background: #cc9d6e;
 }
-#voxRec .navbar-inverse .navbar-toggler:hover {
+#voxrec .navbar-inverse .navbar-toggler:hover {
   background: ;
 }
-#voxRec .navbar-inverse .navbar-nav .open > .nav-link,
-#voxRec .navbar-inverse .navbar-nav .active > .nav-link,
-#voxRec .navbar-inverse .navbar-nav .nav-link.open,
-#voxRec .navbar-inverse .navbar-nav .nav-link.active {
+#voxrec .navbar-inverse .navbar-nav .open > .nav-link,
+#voxrec .navbar-inverse .navbar-nav .active > .nav-link,
+#voxrec .navbar-inverse .navbar-nav .nav-link.open,
+#voxrec .navbar-inverse .navbar-nav .nav-link.active {
   color: #cc9d6e;
 }
-#voxRec .navbar-brand img {
-  content: url(../images/voxRec/logo.png);
+#voxrec .navbar-brand img {
+  content: url(../images/voxrec/logo.png);
 }
-#voxRec .home-wrap {
-  background-image: url(../images/voxRec/hero.jpg);
+#voxrec .home-wrap {
+  background-image: url(../images/voxrec/hero.jpg);
 }
-#voxRec .btn {
+#voxrec .btn {
   color: #ffffff;
   background-color: #cc9d6e;
   border-color: #ffffff;
 }
-#voxRec .btn:hover,
-#voxRec .btn:focus {
+#voxrec .btn:hover,
+#voxrec .btn:focus {
   background: #c5905b;
 }
-#voxRec .section-services .heading h3 span,
-#voxRec .section-register .heading h3 span {
+#voxrec .section-services .heading h3 span,
+#voxrec .section-register .heading h3 span {
   color: #cc9d6e;
 }
-#voxRec .section-services .services-inside-block,
-#voxRec .section-register .services-inside-block {
+#voxrec .section-services .services-inside-block,
+#voxrec .section-register .services-inside-block {
   background: #cc9d6e;
 }
-#voxRec .register-block {
+#voxrec .register-block {
   border-color: #cc9d6e;
 }
-#voxRec .register-block h5 {
+#voxrec .register-block h5 {
   color: #cc9d6e;
 }
-#voxConf .navbar-inverse .navbar-toggler {
+#voxconf .navbar-inverse .navbar-toggler {
   background: #eba34e;
 }
-#voxConf .navbar-inverse .navbar-toggler:hover {
+#voxconf .navbar-inverse .navbar-toggler:hover {
   background: ;
 }
-#voxConf .navbar-inverse .navbar-nav .open > .nav-link,
-#voxConf .navbar-inverse .navbar-nav .active > .nav-link,
-#voxConf .navbar-inverse .navbar-nav .nav-link.open,
-#voxConf .navbar-inverse .navbar-nav .nav-link.active {
+#voxconf .navbar-inverse .navbar-nav .open > .nav-link,
+#voxconf .navbar-inverse .navbar-nav .active > .nav-link,
+#voxconf .navbar-inverse .navbar-nav .nav-link.open,
+#voxconf .navbar-inverse .navbar-nav .nav-link.active {
   color: #eba34e;
 }
-#voxConf .navbar-brand img {
-  content: url(../images/voxConf/logo.png);
+#voxconf .navbar-brand img {
+  content: url(../images/voxconf/logo.png);
 }
-#voxConf .home-wrap {
-  background-image: url(../images/voxConf/hero.jpg);
+#voxconf .home-wrap {
+  background-image: url(../images/voxconf/hero.jpg);
 }
-#voxConf .btn {
+#voxconf .btn {
   color: #ffffff;
   background-color: #eba34e;
   border-color: #ffffff;
 }
-#voxConf .btn:hover,
-#voxConf .btn:focus {
+#voxconf .btn:hover,
+#voxconf .btn:focus {
   background: #955b11;
 }
-#voxConf .section-services .heading h3 span,
-#voxConf .section-register .heading h3 span {
+#voxconf .section-services .heading h3 span,
+#voxconf .section-register .heading h3 span {
   color: #eba34e;
 }
-#voxConf .section-services .services-inside-block,
-#voxConf .section-register .services-inside-block {
+#voxconf .section-services .services-inside-block,
+#voxconf .section-register .services-inside-block {
   background: #eba34e;
 }
-#voxConf .register-block {
+#voxconf .register-block {
   border-color: #eba34e;
 }
-#voxConf .register-block h5 {
+#voxconf .register-block h5 {
   color: #eba34e;
 }
-#sip2Web .navbar-inverse .navbar-toggler {
+#sip2web .navbar-inverse .navbar-toggler {
   background: #5c8d5a;
 }
-#sip2Web .navbar-inverse .navbar-toggler:hover {
+#sip2web .navbar-inverse .navbar-toggler:hover {
   background: ;
 }
-#sip2Web .navbar-inverse .navbar-nav .open > .nav-link,
-#sip2Web .navbar-inverse .navbar-nav .active > .nav-link,
-#sip2Web .navbar-inverse .navbar-nav .nav-link.open,
-#sip2Web .navbar-inverse .navbar-nav .nav-link.active {
+#sip2web .navbar-inverse .navbar-nav .open > .nav-link,
+#sip2web .navbar-inverse .navbar-nav .active > .nav-link,
+#sip2web .navbar-inverse .navbar-nav .nav-link.open,
+#sip2web .navbar-inverse .navbar-nav .nav-link.active {
   color: #5c8d5a;
 }
-#sip2Web .navbar-brand img {
-  content: url(../images/sip2Web/logo.png);
+#sip2web .navbar-brand img {
+  content: url(../images/sip2web/logo.png);
 }
-#sip2Web .home-wrap {
-  background-image: url(../images/sip2Web/hero.jpg);
+#sip2web .home-wrap {
+  background-image: url(../images/sip2web/hero.jpg);
 }
-#sip2Web .btn {
+#sip2web .btn {
   color: #ffffff;
   background-color: #5c8d5a;
   border-color: #ffffff;
 }
-#sip2Web .btn:hover,
-#sip2Web .btn:focus {
+#sip2web .btn:hover,
+#sip2web .btn:focus {
   background: #324d30;
 }
-#sip2Web .section-services .heading h3 span,
-#sip2Web .section-register .heading h3 span {
+#sip2web .section-services .heading h3 span,
+#sip2web .section-register .heading h3 span {
   color: #5c8d5a;
 }
-#sip2Web .section-services .services-inside-block,
-#sip2Web .section-register .services-inside-block {
+#sip2web .section-services .services-inside-block,
+#sip2web .section-register .services-inside-block {
   background: #5c8d5a;
 }
-#sip2Web .register-block {
+#sip2web .register-block {
   border-color: #5c8d5a;
 }
-#sip2Web .register-block h5 {
+#sip2web .register-block h5 {
   color: #5c8d5a;
 }
-#voxCloud .navbar-inverse .navbar-toggler {
+#voxcloud .navbar-inverse .navbar-toggler {
   background: #638467;
 }
-#voxCloud .navbar-inverse .navbar-toggler:hover {
+#voxcloud .navbar-inverse .navbar-toggler:hover {
   background: ;
 }
-#voxCloud .navbar-inverse .navbar-nav .open > .nav-link,
-#voxCloud .navbar-inverse .navbar-nav .active > .nav-link,
-#voxCloud .navbar-inverse .navbar-nav .nav-link.open,
-#voxCloud .navbar-inverse .navbar-nav .nav-link.active {
+#voxcloud .navbar-inverse .navbar-nav .open > .nav-link,
+#voxcloud .navbar-inverse .navbar-nav .active > .nav-link,
+#voxcloud .navbar-inverse .navbar-nav .nav-link.open,
+#voxcloud .navbar-inverse .navbar-nav .nav-link.active {
   color: #638467;
 }
-#voxCloud .navbar-brand img {
-  content: url(../images/voxCloud/logo.png);
+#voxcloud .navbar-brand img {
+  content: url(../images/voxcloud/logo.png);
 }
-#voxCloud .home-wrap {
-  background-image: url(../images/voxCloud/hero.jpg);
+#voxcloud .home-wrap {
+  background-image: url(../images/voxcloud/hero.jpg);
 }
-#voxCloud .btn {
+#voxcloud .btn {
   color: #ffffff;
   background-color: #638467;
   border-color: #ffffff;
 }
-#voxCloud .btn:hover,
-#voxCloud .btn:focus {
+#voxcloud .btn:hover,
+#voxcloud .btn:focus {
   background: #294B2D;
 }
-#voxCloud .section-services .heading h3 span,
-#voxCloud .section-register .heading h3 span {
+#voxcloud .section-services .heading h3 span,
+#voxcloud .section-register .heading h3 span {
   color: #638467;
 }
-#voxCloud .section-services .services-inside-block,
-#voxCloud .section-register .services-inside-block {
+#voxcloud .section-services .services-inside-block,
+#voxcloud .section-register .services-inside-block {
   background: #638467;
 }
-#voxCloud .register-block {
+#voxcloud .register-block {
   border-color: #638467;
 }
-#voxCloud .register-block h5 {
+#voxcloud .register-block h5 {
   color: #638467;
+}
+#did2web .navbar-inverse .navbar-toggler {
+  background: #8B8366;
+}
+#did2web .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
+#did2web .navbar-inverse .navbar-nav .open > .nav-link,
+#did2web .navbar-inverse .navbar-nav .active > .nav-link,
+#did2web .navbar-inverse .navbar-nav .nav-link.open,
+#did2web .navbar-inverse .navbar-nav .nav-link.active {
+  color: #8B8366;
+}
+#did2web .navbar-brand img {
+  content: url(../images/did2web/logo.png);
+}
+#did2web .home-wrap {
+  background-image: url(../images/did2web/hero.jpg);
+}
+#did2web .btn {
+  color: #ffffff;
+  background-color: #8B8366;
+  border-color: #ffffff;
+}
+#did2web .btn:hover,
+#did2web .btn:focus {
+  background: #403E39;
+}
+#did2web .section-services .heading h3 span,
+#did2web .section-register .heading h3 span {
+  color: #8B8366;
+}
+#did2web .section-services .services-inside-block,
+#did2web .section-register .services-inside-block {
+  background: #8B8366;
+}
+#did2web .register-block {
+  border-color: #8B8366;
+}
+#did2web .register-block h5 {
+  color: #8B8366;
 }
 .navbar-inverse {
   background: rgba(64, 62, 57, 0.7);
