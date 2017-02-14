@@ -1,6 +1,14 @@
-.theme-settings (@theme-color, @theme-hero, @theme-logo){
+.theme-settings (@theme-color, @theme-hero, @theme-logo, @theme-color-hover){
 
   .navbar-inverse {
+    
+    .navbar-toggler {
+      background: @theme-color;  
+      
+      &:hover {
+        background: ;
+      }
+    }
     
     .navbar-nav {
     
@@ -64,10 +72,27 @@
   
 }
 
+#workshop {
+  .theme-settings (@color-workshop, @hero-workshop,  @logo-workshop, @hover-workshop);  
+}
+
 #click2Vox {
-  .theme-settings (@color-click2vox, @hero-click2vox,  @logo-click2vox);  
+  .theme-settings (@color-click2vox, @hero-click2vox,  @logo-click2vox, @hover-click2vox);  
 }
 
 #voxRec {
-  .theme-settings (@color-voxRec, @hero-voxRec,  @logo-voxRec);  
+  .theme-settings (@color-voxRec, @hero-voxRec,  @logo-voxRec, @hover-voxRec);  
 }
+
+#voxConf {
+  .theme-settings (@color-voxConf, @hero-voxConf,  @logo-voxConf, @hover-voxConf);  
+}
+
+#sip2Web {
+  .theme-settings (@color-sip2Web, @hero-sip2Web,  @logo-sip2Web, @hover-sip2Web);  
+}
+
+#voxCloud {
+  .theme-settings (@color-voxCloud, @hero-voxCloud,  @logo-voxCloud, @hover-voxCloud);  
+}
+

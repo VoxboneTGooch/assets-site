@@ -13134,6 +13134,53 @@ p {
   border-radius: 6px;
 }
 /* Pages */
+#workshop .navbar-inverse .navbar-toggler {
+  background: #8B8366;
+}
+#workshop .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
+#workshop .navbar-inverse .navbar-nav .open > .nav-link,
+#workshop .navbar-inverse .navbar-nav .active > .nav-link,
+#workshop .navbar-inverse .navbar-nav .nav-link.open,
+#workshop .navbar-inverse .navbar-nav .nav-link.active {
+  color: #8B8366;
+}
+#workshop .navbar-brand img {
+  content: url(../images/workshop/logo.png);
+}
+#workshop .home-wrap {
+  background-image: url(../images/workshop/hero.jpg);
+}
+#workshop .btn {
+  color: #ffffff;
+  background-color: #8B8366;
+  border-color: #ffffff;
+}
+#workshop .btn:hover,
+#workshop .btn:focus {
+  background: #403E39;
+}
+#workshop .section-services .heading h3 span,
+#workshop .section-register .heading h3 span {
+  color: #8B8366;
+}
+#workshop .section-services .services-inside-block,
+#workshop .section-register .services-inside-block {
+  background: #8B8366;
+}
+#workshop .register-block {
+  border-color: #8B8366;
+}
+#workshop .register-block h5 {
+  color: #8B8366;
+}
+#click2Vox .navbar-inverse .navbar-toggler {
+  background: #207fbf;
+}
+#click2Vox .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
 #click2Vox .navbar-inverse .navbar-nav .open > .nav-link,
 #click2Vox .navbar-inverse .navbar-nav .active > .nav-link,
 #click2Vox .navbar-inverse .navbar-nav .nav-link.open,
@@ -13169,6 +13216,12 @@ p {
 #click2Vox .register-block h5 {
   color: #207fbf;
 }
+#voxRec .navbar-inverse .navbar-toggler {
+  background: #cc9d6e;
+}
+#voxRec .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
 #voxRec .navbar-inverse .navbar-nav .open > .nav-link,
 #voxRec .navbar-inverse .navbar-nav .active > .nav-link,
 #voxRec .navbar-inverse .navbar-nav .nav-link.open,
@@ -13188,7 +13241,7 @@ p {
 }
 #voxRec .btn:hover,
 #voxRec .btn:focus {
-  background: #2a4453;
+  background: #c5905b;
 }
 #voxRec .section-services .heading h3 span,
 #voxRec .section-register .heading h3 span {
@@ -13204,9 +13257,139 @@ p {
 #voxRec .register-block h5 {
   color: #cc9d6e;
 }
+#voxConf .navbar-inverse .navbar-toggler {
+  background: #eba34e;
+}
+#voxConf .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
+#voxConf .navbar-inverse .navbar-nav .open > .nav-link,
+#voxConf .navbar-inverse .navbar-nav .active > .nav-link,
+#voxConf .navbar-inverse .navbar-nav .nav-link.open,
+#voxConf .navbar-inverse .navbar-nav .nav-link.active {
+  color: #eba34e;
+}
+#voxConf .navbar-brand img {
+  content: url(../images/voxConf/logo.png);
+}
+#voxConf .home-wrap {
+  background-image: url(../images/voxConf/hero.jpg);
+}
+#voxConf .btn {
+  color: #ffffff;
+  background-color: #eba34e;
+  border-color: #ffffff;
+}
+#voxConf .btn:hover,
+#voxConf .btn:focus {
+  background: #955b11;
+}
+#voxConf .section-services .heading h3 span,
+#voxConf .section-register .heading h3 span {
+  color: #eba34e;
+}
+#voxConf .section-services .services-inside-block,
+#voxConf .section-register .services-inside-block {
+  background: #eba34e;
+}
+#voxConf .register-block {
+  border-color: #eba34e;
+}
+#voxConf .register-block h5 {
+  color: #eba34e;
+}
+#sip2Web .navbar-inverse .navbar-toggler {
+  background: #5c8d5a;
+}
+#sip2Web .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
+#sip2Web .navbar-inverse .navbar-nav .open > .nav-link,
+#sip2Web .navbar-inverse .navbar-nav .active > .nav-link,
+#sip2Web .navbar-inverse .navbar-nav .nav-link.open,
+#sip2Web .navbar-inverse .navbar-nav .nav-link.active {
+  color: #5c8d5a;
+}
+#sip2Web .navbar-brand img {
+  content: url(../images/sip2Web/logo.png);
+}
+#sip2Web .home-wrap {
+  background-image: url(../images/sip2Web/hero.jpg);
+}
+#sip2Web .btn {
+  color: #ffffff;
+  background-color: #5c8d5a;
+  border-color: #ffffff;
+}
+#sip2Web .btn:hover,
+#sip2Web .btn:focus {
+  background: #324d30;
+}
+#sip2Web .section-services .heading h3 span,
+#sip2Web .section-register .heading h3 span {
+  color: #5c8d5a;
+}
+#sip2Web .section-services .services-inside-block,
+#sip2Web .section-register .services-inside-block {
+  background: #5c8d5a;
+}
+#sip2Web .register-block {
+  border-color: #5c8d5a;
+}
+#sip2Web .register-block h5 {
+  color: #5c8d5a;
+}
+#voxCloud .navbar-inverse .navbar-toggler {
+  background: #638467;
+}
+#voxCloud .navbar-inverse .navbar-toggler:hover {
+  background: ;
+}
+#voxCloud .navbar-inverse .navbar-nav .open > .nav-link,
+#voxCloud .navbar-inverse .navbar-nav .active > .nav-link,
+#voxCloud .navbar-inverse .navbar-nav .nav-link.open,
+#voxCloud .navbar-inverse .navbar-nav .nav-link.active {
+  color: #638467;
+}
+#voxCloud .navbar-brand img {
+  content: url(../images/voxCloud/logo.png);
+}
+#voxCloud .home-wrap {
+  background-image: url(../images/voxCloud/hero.jpg);
+}
+#voxCloud .btn {
+  color: #ffffff;
+  background-color: #638467;
+  border-color: #ffffff;
+}
+#voxCloud .btn:hover,
+#voxCloud .btn:focus {
+  background: #294B2D;
+}
+#voxCloud .section-services .heading h3 span,
+#voxCloud .section-register .heading h3 span {
+  color: #638467;
+}
+#voxCloud .section-services .services-inside-block,
+#voxCloud .section-register .services-inside-block {
+  background: #638467;
+}
+#voxCloud .register-block {
+  border-color: #638467;
+}
+#voxCloud .register-block h5 {
+  color: #638467;
+}
 .navbar-inverse {
   background: rgba(64, 62, 57, 0.7);
   border-bottom: 1px solid #080808;
+}
+.navbar-inverse .navbar-toggler {
+  padding: 2px 6px;
+  border-color: #fff;
+}
+.navbar-inverse .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-inverse .navbar-brand {
   display: inline-block;
