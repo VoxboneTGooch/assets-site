@@ -13126,12 +13126,27 @@ p {
 .btn:focus {
   text-decoration: underline;
 }
+.btn-primary {
+  margin-top: 15px;
+}
 .btn-group-lg > .btn,
 .btn-xl {
   padding: 14px 20px;
   font-size: 22px;
   line-height: 1.6;
   border-radius: 6px;
+}
+select.form-control {
+  background-image: url("../images/custom-select-drop.jpg");
+  background-position: right center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+label {
+  margin: 0;
 }
 /* Pages */
 #workshop .navbar-inverse .navbar-toggler {
@@ -13151,14 +13166,15 @@ p {
 }
 #workshop .home-wrap {
   background-image: url(../images/workshop/hero.jpg);
+  background-color: #8B8366;
 }
-#workshop .btn {
+#workshop .btn-primary {
   color: #ffffff;
   background-color: #8B8366;
   border-color: #ffffff;
 }
-#workshop .btn:hover,
-#workshop .btn:focus {
+#workshop .btn-primary:hover,
+#workshop .btn-primary:focus {
   background: #403E39;
 }
 #workshop .section-services .heading h3 span,
@@ -13174,6 +13190,9 @@ p {
 }
 #workshop .register-block h5 {
   color: #8B8366;
+}
+#workshop .small-footer {
+  background-color: rgba(139, 131, 102, 0.6);
 }
 #click2vox .navbar-inverse .navbar-toggler {
   background: #207fbf;
@@ -13192,14 +13211,15 @@ p {
 }
 #click2vox .home-wrap {
   background-image: url(../images/click2vox/hero.jpg);
+  background-color: #207fbf;
 }
-#click2vox .btn {
+#click2vox .btn-primary {
   color: #ffffff;
   background-color: #207fbf;
   border-color: #ffffff;
 }
-#click2vox .btn:hover,
-#click2vox .btn:focus {
+#click2vox .btn-primary:hover,
+#click2vox .btn-primary:focus {
   background: #2a4453;
 }
 #click2vox .section-services .heading h3 span,
@@ -13215,6 +13235,9 @@ p {
 }
 #click2vox .register-block h5 {
   color: #207fbf;
+}
+#click2vox .small-footer {
+  background-color: rgba(32, 127, 191, 0.6);
 }
 #voxrec .navbar-inverse .navbar-toggler {
   background: #cc9d6e;
@@ -13233,14 +13256,15 @@ p {
 }
 #voxrec .home-wrap {
   background-image: url(../images/voxrec/hero.jpg);
+  background-color: #cc9d6e;
 }
-#voxrec .btn {
+#voxrec .btn-primary {
   color: #ffffff;
   background-color: #cc9d6e;
   border-color: #ffffff;
 }
-#voxrec .btn:hover,
-#voxrec .btn:focus {
+#voxrec .btn-primary:hover,
+#voxrec .btn-primary:focus {
   background: #c5905b;
 }
 #voxrec .section-services .heading h3 span,
@@ -13256,6 +13280,9 @@ p {
 }
 #voxrec .register-block h5 {
   color: #cc9d6e;
+}
+#voxrec .small-footer {
+  background-color: rgba(204, 157, 110, 0.6);
 }
 #voxconf .navbar-inverse .navbar-toggler {
   background: #eba34e;
@@ -13274,14 +13301,15 @@ p {
 }
 #voxconf .home-wrap {
   background-image: url(../images/voxconf/hero.jpg);
+  background-color: #eba34e;
 }
-#voxconf .btn {
+#voxconf .btn-primary {
   color: #ffffff;
   background-color: #eba34e;
   border-color: #ffffff;
 }
-#voxconf .btn:hover,
-#voxconf .btn:focus {
+#voxconf .btn-primary:hover,
+#voxconf .btn-primary:focus {
   background: #955b11;
 }
 #voxconf .section-services .heading h3 span,
@@ -13297,6 +13325,9 @@ p {
 }
 #voxconf .register-block h5 {
   color: #eba34e;
+}
+#voxconf .small-footer {
+  background-color: rgba(235, 163, 78, 0.6);
 }
 #sip2web .navbar-inverse .navbar-toggler {
   background: #5c8d5a;
@@ -13315,14 +13346,15 @@ p {
 }
 #sip2web .home-wrap {
   background-image: url(../images/sip2web/hero.jpg);
+  background-color: #5c8d5a;
 }
-#sip2web .btn {
+#sip2web .btn-primary {
   color: #ffffff;
   background-color: #5c8d5a;
   border-color: #ffffff;
 }
-#sip2web .btn:hover,
-#sip2web .btn:focus {
+#sip2web .btn-primary:hover,
+#sip2web .btn-primary:focus {
   background: #324d30;
 }
 #sip2web .section-services .heading h3 span,
@@ -13338,6 +13370,9 @@ p {
 }
 #sip2web .register-block h5 {
   color: #5c8d5a;
+}
+#sip2web .small-footer {
+  background-color: rgba(92, 141, 90, 0.6);
 }
 #voxcloud .navbar-inverse .navbar-toggler {
   background: #638467;
@@ -13356,14 +13391,15 @@ p {
 }
 #voxcloud .home-wrap {
   background-image: url(../images/voxcloud/hero.jpg);
+  background-color: #638467;
 }
-#voxcloud .btn {
+#voxcloud .btn-primary {
   color: #ffffff;
   background-color: #638467;
   border-color: #ffffff;
 }
-#voxcloud .btn:hover,
-#voxcloud .btn:focus {
+#voxcloud .btn-primary:hover,
+#voxcloud .btn-primary:focus {
   background: #294B2D;
 }
 #voxcloud .section-services .heading h3 span,
@@ -13379,6 +13415,9 @@ p {
 }
 #voxcloud .register-block h5 {
   color: #638467;
+}
+#voxcloud .small-footer {
+  background-color: rgba(99, 132, 103, 0.6);
 }
 #did2web .navbar-inverse .navbar-toggler {
   background: #8B8366;
@@ -13397,14 +13436,15 @@ p {
 }
 #did2web .home-wrap {
   background-image: url(../images/did2web/hero.jpg);
+  background-color: #8B8366;
 }
-#did2web .btn {
+#did2web .btn-primary {
   color: #ffffff;
   background-color: #8B8366;
   border-color: #ffffff;
 }
-#did2web .btn:hover,
-#did2web .btn:focus {
+#did2web .btn-primary:hover,
+#did2web .btn-primary:focus {
   background: #403E39;
 }
 #did2web .section-services .heading h3 span,
@@ -13420,6 +13460,9 @@ p {
 }
 #did2web .register-block h5 {
   color: #8B8366;
+}
+#did2web .small-footer {
+  background-color: rgba(139, 131, 102, 0.6);
 }
 .navbar-inverse {
   background: rgba(64, 62, 57, 0.7);
@@ -13778,12 +13821,15 @@ p {
   width: 100%;
   position: fixed;
   bottom: 0px;
-  padding: 0 !important;
-  background-color: #7c755b;
+  padding: 2px 0 !important;
   z-index: 5;
 }
 .small-footer p {
   margin-bottom: 0;
+}
+.small-footer a {
+  font-size: 13px;
+  margin: 0 2px;
 }
 .small-footer a:hover {
   color: #ffffff !important;

@@ -1,4 +1,6 @@
-.theme-settings (@theme-color, @theme-hero, @theme-logo, @theme-color-hover){
+.theme-settings (@theme-color, @theme-hero, @theme-logo, @theme-color-hover, @small-footer-bg){
+
+  
 
   .navbar-inverse {
     
@@ -31,9 +33,10 @@
 
   .home-wrap{
     background-image: @theme-hero;
+    background-color: @theme-color;
   }
     
-  .btn {
+  .btn-primary {
     color: @color-white;
     background-color: @theme-color;
     border-color: @color-white;
@@ -70,34 +73,38 @@
     }
   }
   
+  .small-footer {
+    background-color: @small-footer-bg;
+  }
+  
 }
 
 #workshop {
-  .theme-settings (@color-workshop, @hero-workshop,  @logo-workshop, @hover-workshop);  
+  .theme-settings (@color-workshop, @hero-workshop,  @logo-workshop, @hover-workshop, fade(@color-workshop, 60%));  
 }
 
 #click2vox {
-  .theme-settings (@color-click2vox, @hero-click2vox,  @logo-click2vox, @hover-click2vox);  
+  .theme-settings (@color-click2vox, @hero-click2vox,  @logo-click2vox, @hover-click2vox, fade(@color-click2vox, 60%));  
 }
 
 #voxrec {
-  .theme-settings (@color-voxrec, @hero-voxrec,  @logo-voxrec, @hover-voxrec);  
+  .theme-settings (@color-voxrec, @hero-voxrec,  @logo-voxrec, @hover-voxrec, fade(@color-voxrec, 60%));  
 }
 
 #voxconf {
-  .theme-settings (@color-voxconf, @hero-voxconf,  @logo-voxconf, @hover-voxconf);  
+  .theme-settings (@color-voxconf, @hero-voxconf,  @logo-voxconf, @hover-voxconf, fade(@color-voxconf, 60%));  
 }
 
 #sip2web {
-  .theme-settings (@color-sip2web, @hero-sip2web,  @logo-sip2web, @hover-sip2web);  
+  .theme-settings (@color-sip2web, @hero-sip2web,  @logo-sip2web, @hover-sip2web, fade(@color-sip2web, 60%));  
 }
 
 #voxcloud {
-  .theme-settings (@color-voxcloud, @hero-voxcloud,  @logo-voxcloud, @hover-voxcloud);  
+  .theme-settings (@color-voxcloud, @hero-voxcloud,  @logo-voxcloud, @hover-voxcloud, fade(@color-voxcloud, 60%));  
 }
 
 #did2web {
-  .theme-settings (@color-did2web, @hero-did2web,  @logo-did2web, @hover-did2web);  
+  .theme-settings (@color-did2web, @hero-did2web,  @logo-did2web, @hover-did2web, fade(@color-did2web, 60%));  
 }
 
 
