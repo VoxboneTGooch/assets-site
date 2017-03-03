@@ -13148,12 +13148,12 @@ select.form-control {
 label {
   margin: 0;
 }
+.badge {
+  margin: 5px;
+}
 /* Pages */
 #workshop .navbar-inverse .navbar-toggler {
   background: #8B8366;
-}
-#workshop .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #workshop .navbar-inverse .navbar-nav .open > .nav-link,
 #workshop .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13191,14 +13191,23 @@ label {
 #workshop .register-block h5 {
   color: #8B8366;
 }
+#workshop .register-block a {
+  color: #8B8366;
+}
+#workshop .register-block a:hover {
+  color: #8a8265;
+}
+#workshop .register-block .btn {
+  color: #ffffff;
+}
+#workshop .register-block .btn:hover {
+  color: #ffffff;
+}
 #workshop .small-footer {
   background-color: rgba(139, 131, 102, 0.6);
 }
 #click2vox .navbar-inverse .navbar-toggler {
   background: #207fbf;
-}
-#click2vox .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #click2vox .navbar-inverse .navbar-nav .open > .nav-link,
 #click2vox .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13236,14 +13245,23 @@ label {
 #click2vox .register-block h5 {
   color: #207fbf;
 }
+#click2vox .register-block a {
+  color: #207fbf;
+}
+#click2vox .register-block a:hover {
+  color: #207ebd;
+}
+#click2vox .register-block .btn {
+  color: #ffffff;
+}
+#click2vox .register-block .btn:hover {
+  color: #ffffff;
+}
 #click2vox .small-footer {
   background-color: rgba(32, 127, 191, 0.6);
 }
 #voxrec .navbar-inverse .navbar-toggler {
   background: #cc9d6e;
-}
-#voxrec .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #voxrec .navbar-inverse .navbar-nav .open > .nav-link,
 #voxrec .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13281,14 +13299,23 @@ label {
 #voxrec .register-block h5 {
   color: #cc9d6e;
 }
+#voxrec .register-block a {
+  color: #cc9d6e;
+}
+#voxrec .register-block a:hover {
+  color: #cb9c6c;
+}
+#voxrec .register-block .btn {
+  color: #ffffff;
+}
+#voxrec .register-block .btn:hover {
+  color: #ffffff;
+}
 #voxrec .small-footer {
   background-color: rgba(204, 157, 110, 0.6);
 }
 #voxconf .navbar-inverse .navbar-toggler {
   background: #eba34e;
-}
-#voxconf .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #voxconf .navbar-inverse .navbar-nav .open > .nav-link,
 #voxconf .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13326,14 +13353,23 @@ label {
 #voxconf .register-block h5 {
   color: #eba34e;
 }
+#voxconf .register-block a {
+  color: #eba34e;
+}
+#voxconf .register-block a:hover {
+  color: #eba24c;
+}
+#voxconf .register-block .btn {
+  color: #ffffff;
+}
+#voxconf .register-block .btn:hover {
+  color: #ffffff;
+}
 #voxconf .small-footer {
   background-color: rgba(235, 163, 78, 0.6);
 }
 #sip2web .navbar-inverse .navbar-toggler {
   background: #5c8d5a;
-}
-#sip2web .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #sip2web .navbar-inverse .navbar-nav .open > .nav-link,
 #sip2web .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13371,14 +13407,23 @@ label {
 #sip2web .register-block h5 {
   color: #5c8d5a;
 }
+#sip2web .register-block a {
+  color: #5c8d5a;
+}
+#sip2web .register-block a:hover {
+  color: #5b8b59;
+}
+#sip2web .register-block .btn {
+  color: #ffffff;
+}
+#sip2web .register-block .btn:hover {
+  color: #ffffff;
+}
 #sip2web .small-footer {
   background-color: rgba(92, 141, 90, 0.6);
 }
 #voxcloud .navbar-inverse .navbar-toggler {
   background: #638467;
-}
-#voxcloud .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #voxcloud .navbar-inverse .navbar-nav .open > .nav-link,
 #voxcloud .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13416,14 +13461,23 @@ label {
 #voxcloud .register-block h5 {
   color: #638467;
 }
+#voxcloud .register-block a {
+  color: #638467;
+}
+#voxcloud .register-block a:hover {
+  color: #628366;
+}
+#voxcloud .register-block .btn {
+  color: #ffffff;
+}
+#voxcloud .register-block .btn:hover {
+  color: #ffffff;
+}
 #voxcloud .small-footer {
   background-color: rgba(99, 132, 103, 0.6);
 }
 #did2web .navbar-inverse .navbar-toggler {
   background: #8B8366;
-}
-#did2web .navbar-inverse .navbar-toggler:hover {
-  background: ;
 }
 #did2web .navbar-inverse .navbar-nav .open > .nav-link,
 #did2web .navbar-inverse .navbar-nav .active > .nav-link,
@@ -13460,6 +13514,18 @@ label {
 }
 #did2web .register-block h5 {
   color: #8B8366;
+}
+#did2web .register-block a {
+  color: #8B8366;
+}
+#did2web .register-block a:hover {
+  color: #8a8265;
+}
+#did2web .register-block .btn {
+  color: #ffffff;
+}
+#did2web .register-block .btn:hover {
+  color: #ffffff;
 }
 #did2web .small-footer {
   background-color: rgba(139, 131, 102, 0.6);
@@ -13744,7 +13810,7 @@ label {
 .navbar-inverse .navbar-brand img {
   height: 80px;
 }
-.navbar-inverse .navbar-nav .nav-link {
+.navbar-inverse .navbar-nav a.nav-link {
   color: #ffffff;
   padding-left: 15px;
   padding-right: 15px;

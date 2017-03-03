@@ -1,15 +1,9 @@
 .theme-settings (@theme-color, @theme-hero, @theme-logo, @theme-color-hover, @small-footer-bg){
 
-  
-
   .navbar-inverse {
     
     .navbar-toggler {
-      background: @theme-color;  
-      
-      &:hover {
-        background: ;
-      }
+      background: @theme-color;        
     }
     
     .navbar-nav {
@@ -71,6 +65,23 @@
     h5 {
       color: @theme-color;
     }
+
+		a {
+			color: @theme-color;
+			
+			&:hover {
+				color: darken(@theme-color, .5);
+			}
+		}
+		
+		.btn {
+			color: @color-white;
+			
+			&:hover {
+				color: @color-white;
+			
+			}
+		}
   }
   
   .small-footer {
